@@ -160,6 +160,10 @@
 
 .table {
   width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-between;
 }
 
 .table__row {
@@ -170,6 +174,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style: none;
 }
 
 .table__heading {
@@ -179,11 +184,8 @@
 }
 
 .table__text {
-  margin: 0;
-}
-
-.table__text:nth-of-type(2) {
-  margin-top: 20px;
+  font-size: 18px;
+  margin: 20px 0 0;
 }
 
 /* feynman */
@@ -300,12 +302,14 @@
 }
 
 .footer__author {
+  font-size: 18px;
   line-height: 25px;
   color: #fff;
   margin: 18px 0;
 }
 
 .footer__column-heading {
+  font-size: 18px;
   line-height: 30px;
   font-weight: 600; /* bolder */
   color: #fff;
@@ -321,6 +325,7 @@
 }
 
 .footer__column-link {
+  font-size: 18px;
   line-height: 30px;
   color: #fff;
   position: relative;
