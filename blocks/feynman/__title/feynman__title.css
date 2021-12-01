@@ -1,0 +1,7 @@
+.feynman__title {
+	font-size: 120px;
+	font-weight: 600; /* bolder */
+	margin: 0 auto;
+	max-width: 648px;
+	text-align: center;
+}
