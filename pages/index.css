@@ -2,6 +2,11 @@
 @import url(../vendor/normalize.css);
 /* Global - page */
 @import url(../blocks/page/page.css);
+/* Global - rotation */
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/rotation/_type/rotation_type_clockwise.css);
+/* Global - rotation */
+@import url(../blocks/link/link.css);
 
 /* Blocks*/
 
