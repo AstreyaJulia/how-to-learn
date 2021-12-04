@@ -1,0 +1,14 @@
+.resources__logo {
+  padding-top: 80px; /* если ссылок будет больше, то они перенесутся на новую строку и между ними будет отступ */
+  width: 270px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

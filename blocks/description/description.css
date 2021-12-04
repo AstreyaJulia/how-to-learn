@@ -1,6 +1,6 @@
 .description {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 100px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 100px;
 }

@@ -1,4 +1,9 @@
 .khan__book-container {
-    margin-top: 68px;
-    display: flex;
+  margin-top: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; /* иначе высота ссылки "Купить книгу" будет на весь родительский блок */
 }

@@ -1,3 +1,4 @@
 .rotation_type_clockwise {
-	animation: rotation 20s infinite linear;
+  -webkit-animation: rotation 20s infinite linear;
+  animation: rotation 20s infinite linear;
 }
