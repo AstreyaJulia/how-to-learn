@@ -140,6 +140,8 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 /* footer__author */
 @import url(../blocks/footer/__author/footer__author.css);
+/* footer__column */
+@import url(../blocks/footer/__column/footer__column.css);
 /* footer__column-heading */
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 /* footer__column-links */
@@ -150,3 +152,5 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 /* footer modifiers */
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+/* logo_place_footer */
+@import url(../blocks/logo/_place/logo_place_footer.css);
